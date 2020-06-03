@@ -1,17 +1,25 @@
-<div class="row">
-  <div class="col-xl-12">
-    <%= form_with(model: article, local: true, :html => {class: "form-horizontal", role: "form"}) do |form| %>
-      <% if article.errors.any? %>
-        <div id="error_explanation">
-          <h2><%= pluralize(article.errors.count, "error") %> prohibited this article from being saved:</h2>
+<% if article.errors.any? %>
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3><%= pluralize(article.errors.count, "error") %> prohibited this article from being saved:</h3>
+            <div class="panel-body">
               <ul>
                 <% article.errors.full_messages.each do |message| %>
                   <li><%= message %></li>
                 <% end %>
               </ul>
             </div>
-          <% end %>
+          </div>
+        </div>      
+      </div>
+    </div>
+<% end %>
 
+<div class="row">
+  <div class="col-xl-12">
+    <%= form_with(model: article, local: true, :html => {class: "form-horizontal", role: "form"}) do |form| %>
       <div class="form-group">
         <div class="control-label col-sm-2">
           <%= form.label :title %>
