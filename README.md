@@ -4,7 +4,7 @@
 Blog app for developers to talk about interesting software developement topics.
 
 ## App Links
-> [Live link](https://salty-ridge-10695.herokuapp.com/)
+[Live link](https://salty-ridge-10695.herokuapp.com/)
 
 ## Features
 - User create an account via sign-up
@@ -42,13 +42,13 @@ Blog app for developers to talk about interesting software developement topics.
 
 ## Author
 
-👤 **Evanson Igiri**
+👤  **Evanson Igiri**
 
 - Github: [@evansinho](https://github.com/evansinho)
 - Twitter: [@iamevanson](https://twitter.com/iamevanson)
 - Linkedin: [evanson-igiri](https://linkedin.com/evanson-igiri)
 
-## 🤝 Contributing
+## 🤝  Contributing
 #### Start by:
 
 - Fork/Clone the project to your local machine
@@ -61,4 +61,4 @@ Blog app for developers to talk about interesting software developement topics.
 #### Feel free to also check the [issues](https://github.com/imahnama/Blog/issues) page.
 
 ## Show your support
-Give a ⭐️ if you like this project!!
+Give a ⭐️  if you like this project!!
