@@ -14,6 +14,11 @@ a{
   text-decoration: none;
 }
 
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
 .nav_bar {
   display: flex;
   justify-content: space-between;
