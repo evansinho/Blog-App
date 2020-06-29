@@ -9,8 +9,11 @@ Blog app for developers to talk about interesting software developement topics.
 ## Features
 - User create an account via sign-up
 - User can login
-- User can create articles
-- 
+- User can perform CRUD functionalities to articles
+
+## Future Features
+- Have a super admin that can remove users and articles.
+- Add images to users instead of gravatar url.
 
 
 ## Built With
@@ -38,7 +41,9 @@ Blog app for developers to talk about interesting software developement topics.
 - Goto `localhost:3000` then you can start writing about interesting topics.
 
 ### Commands to run
-- `rails s` to run the local host and start playing with the form.
+- `rails s` to run the local host and start playing with the app.
+- `rspec` to run test.
+
 
 ## Author
 
