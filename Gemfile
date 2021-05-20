@@ -14,7 +14,7 @@ group :development, :test do
    gem 'pg'
  end
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'bcrypt', '~> 3.1.7'
